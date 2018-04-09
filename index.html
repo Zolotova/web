@@ -5,18 +5,25 @@
   <!-- Тег meta для указания кодировки -->
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
-  <title>Шаблон с одной колонкой</title>
+  <script type="text/javascript" src="jQuery.js"></script>
+  <script src="script.js"></script>
+  <title>Шаблон</title>
 </head>
 
 <body>
   <div id="wrap">
     <div id="header">
-      <div class="logo">
+      <div id="logo">
+        <div id="logo_img">
         <a href=""><img src="img/logo.png" alt=""></img></a>
+        </div>
+        <div id="logo_text_wrapper">
+          <a href="index.html"<span id="logo_text">Attractive name</span></a>
+        </div>
       </div>
-      <div class="menubar">
-        <ul>
-          <li><a href="index.html">
+      <div id="menubar">
+        <ul id="menubar_list">
+          <li><a href="first.html">
                     Главная
                   </a>
           </li>
@@ -28,38 +35,19 @@
                     Галерея
                   </a>
           </li>
-          <li><a href="galery.html">
-                    Контакты
+          <li><a href="link.html">
+                    Написать
                   </a>
           </li>
-          <li><a href="galery.html">
+          <li><a href="about.html">
                     О нас
                   </a>
           </li>
         </ul>
       </div>
-      <div class="content">
-        <p>А это шапочка: в шапочке обычно расположено меню</p>
-        <p>Но пока его нет, я порадую вас этими замечательными буквами</p>
-
-      </div>
 
     </div>
     <div id="content">
-      <div id="leftcol">
-        <div class="content">
-          <p>Hop-hay-la-la-ley</p>
-        </div>
-      </div>
-
-      <div id="main">
-        <div class="content">
-          <h1>Новинки и старинки</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse <a href="">cillum dolore eu fugiat nulla pariaturds.</a> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-
     </div>
     <div id="footer">
       <p>2018<sup>(c)</sup></p>
@@ -70,7 +58,7 @@
         <a href=""><img src="img/vk.png" alt=""></img></a>
         <a href=""><img src="img/fb.png" alt=""></img></a>
         <a href=""><img src="img/tw.png" alt=""></img></a>
-        <a href=""><img src="img/hp.png" alt=""></img></a>
+        <a href=""><img src="img/tardis.png" alt=""></img></a>
       </p>
     </div>
   </div>
